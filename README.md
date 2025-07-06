@@ -1,4 +1,4 @@
-# Trading Portfolio Analyzer
+# AI Stock Analysis
 
 This project is a Python application that integrates multiple APIs and an external AI prediction system to analyze stock trends and provide investment recommendations (buy, sell, or hold) for the upcoming period.
 
