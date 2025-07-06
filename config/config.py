@@ -26,6 +26,7 @@ DEFAULT_CONFIG = {
     "output_language": "english",
     "stock_symbol": "AAPL",
     "analysis_period_days": 28,
+    "prediction_path": "",
     "max_news_articles": None,
     "max_articles_per_day": 5,
     "news_api_language": "en",
