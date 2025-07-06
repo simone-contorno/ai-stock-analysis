@@ -1,0 +1,30 @@
+{
+    "general": {
+        "stock_symbol": "^GSPC",
+        "analysis_period_days": 28,
+        "prediction_path": "your_path_to_ai_stock_prediction"
+    },
+    "yahoo_finance": {
+        
+    },
+    "together_ai": {
+        "together_model": "meta-llama/Llama-3.3-70B-Instruct-Turbo-Free",
+        "together_max_tokens": 4096,
+        "together_temperature": 0.2,
+        "together_top_p": 0.85,
+        "together_top_k": 30,
+        "together_repetition_penalty": 1.1,
+        "investment_horizon": "10 years",
+        "output_language": "english"
+    },
+    "news_api": {
+        "max_news_articles": 100,
+        "max_articles_per_day": 3,
+        "news_api_language": "en",
+        "news_api_sort_by": "relevancy",
+        "news_api_page_size": 100,
+        "news_api_query_suffix": "S&P500 OR GSPC",
+        "news_api_refresh_no_news": false,
+        "news_api_refresh_articles": false
+    }
+}

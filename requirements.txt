@@ -1,0 +1,11 @@
+# Dependencies for the trading analysis project
+yfinance==0.2.36
+newsapi-python==0.2.7
+together==0.2.11
+python-dotenv==1.0.1
+pandas==2.2.0
+numpy==1.26.4
+matplotlib==3.8.3
+requests==2.31.0
+reportlab==4.0.8
+# The json, csv, and glob modules are part of the Python standard library
