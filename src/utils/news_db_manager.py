@@ -29,7 +29,7 @@ class NewsDBManager:
         self.db_dir = Path(
             os.path.join("data", "news_db")
         )
-        self.db_dir.mkdir(exist_ok=True)
+        self.db_dir.mkdir(exist_ok=True, parents=True)
         logger.info(f"Database directory: {self.db_dir}")
 
     def _get_symbol_file_path(self, symbol: str) -> Path:
