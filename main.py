@@ -35,8 +35,8 @@ for handler in logging.root.handlers[:]:
 
 # Function to create the folder structure for logs and reports
 def create_report_directory(symbol: str) -> tuple:
-    # Create the output/logs folder if it doesn't exist
-    logs_dir = Path(os.path.join(os.path.dirname(os.path.abspath(__file__)), "output", "logs"))
+    # Create the output folder if it doesn't exist
+    logs_dir = Path(os.path.join(os.path.dirname(os.path.abspath(__file__)), "output"))
     logs_dir.mkdir(exist_ok=True, parents=True)
 
     # Create the subfolder for the symbol if it doesn't exist
