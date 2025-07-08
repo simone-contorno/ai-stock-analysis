@@ -1,0 +1,141 @@
+
+<|begin_of_promptml|>
+[System]
+You are an expert financial analyst tasked with providing a comprehensive analysis and detailed recommendation for the stock Apple (AAPL). Your analysis must be strictly based on the provided data and must be professional, objective, and easily interpretable.
+
+[Input_Data]
+- Financial Data (last 4 weeks): 
+  
+- Initial price: $202.67
+- Final price: $209.97
+- Percentage change: 3.60%
+- Annualized volatility: 0.20%
+- Average daily volume: 55145863
+- RSI (Relative Strength Index): 70.75
+
+
+- Relevant news (last 4 weeks):
+  RELEVANT NEWS FROM THE LAST 4 WEEKS (total: 58):
+1. [2025-06-10] Craig Federighi confirms Apple’s first attempt at an AI Siri wasn’t good enough (Source: The Verge)
+2. [2025-06-10] Apple’s Journal app is finally coming to other platforms (Source: The Verge)
+3. [2025-06-10] Hang on, did the iPad just become a computer? (Source: The Verge)
+4. [2025-06-11] Apple Home is expanding its energy management features (Source: The Verge)
+5. [2025-06-11] The Mule Is All the Way Here in the Full ‘Foundation’ Season 3 Trailer (Source: Gizmodo.com)
+6. [2025-06-11] Apple Knows AI Isn’t What People Really Want, but It Can’t Say That (Source: Gizmodo.com)
+7. [2025-06-12] All the Android features Apple announced at WWDC (Source: The Verge)
+8. [2025-06-12] Apple’s upgraded Siri might not arrive until next spring (Source: The Verge)
+9. [2025-06-12] Apple will let you play video in CarPlay with iOS 26 (Source: The Verge)
+10. [2025-06-13] Zombie AI Siri May Shuffle Onto iPhones Two Years After It Was First Announced (Source: Gizmodo.com)
+11. [2025-06-13] Apple Seeds Revised iOS 26 Developer Beta (Source: MacRumors)
+12. [2025-06-16] Hinge is planning its own mobile payment system to avoid App Store fees (Source: The Verge)
+13. [2025-06-16] With AI Siri Delayed, Apple’s AirPods Pro 3 May Be Next (Source: Gizmodo.com)
+14. [2025-06-16] Apple Seeds First Beta of macOS Sequoia 15.6 (Source: MacRumors)
+15. [2025-06-17] Apple Slashes 2024 M4 Mac Mini Price Below Black Friday, Feels Like a Surprise Clearout Sale on Amazon (Source: Gizmodo.com)
+16. [2025-06-17] Apple should ditch Siri for Gemini and Google Cloud, here's why (Source: Android Central)
+17. [2025-06-17] Discounted Apple Watch Series 10 Now Available From Apple's U.S. Refurbished Store (Source: MacRumors)
+18. [2025-06-18] Watch as the Star of ‘Murderbot’ Finally, Begrudgingly Learns How to Speak Human (Source: Gizmodo.com)
+19. [2025-06-18] NFC is getting a range boost (Source: The Verge)
+20. [2025-06-18] AirPods Pro 2 Are Back at Their Lowest Price as Apple Clears Out Limited Stock on Amazon (Source: Gizmodo.com)
+21. [2025-06-19] Apple Slashes M4 Mac Mini Price Way Below Black Friday, Feels Like a Surprise Clearout Sale on Amazon (Source: Gizmodo.com)
+22. [2025-06-19] Apple’s 2025 MacBook Air With M4 Chip Hits All-Time Low, Limited Units Available for Early Prime Day (Source: Gizmodo.com)
+23. [2025-06-19] Apple Considers Using Generative AI for Faster Apple Silicon Design (Source: MacRumors)
+24. [2025-06-20] Apple Celebrates New Store in Perth, Australia With a Special Wallpaper (Source: MacRumors)
+25. [2025-06-20] It's Not Just You: Apple Intelligence is Down on iOS 26 and Other Betas (Source: MacRumors)
+26. [2025-06-22] The $14 Billion AI Google Killer (Source: Gizmodo.com)
+27. [2025-06-22] OpenAI and Jony Ive’s ‘io’ brand has vanished, but their AI hardware deal remains (Source: The Verge)
+28. [2025-06-23] Nomad’s minimalist MagSafe wallet has a tracking card built in (Source: The Verge)
+29. [2025-06-23] Good News: Two of Apple TV+’s Most Slept-On Sci-Fi Shows Have Hopeful Plans for More (Source: Gizmodo.com)
+30. [2025-06-23] Apple Seeds Second Beta of macOS Tahoe (Source: MacRumors)
+31. [2025-06-24] Apple Wallet notifications for an F1 movie promotion ticked off iPhone owners (Source: The Verge)
+32. [2025-06-24] What a set of knockoff headphones taught me about headphones — and knockoffs (Source: The Verge)
+33. [2025-06-24] Apple Joins China Subsidy Program in Effort to Counter Declining Sales (Source: MacRumors)
+34. [2025-06-25] Apple’s sports app now shows tennis scores (Source: The Verge)
+35. [2025-06-25] Apple Hopes Tennis Will Remind You the Apple Sports App Exists (Source: Gizmodo.com)
+36. [2025-06-25] Amazon Sells the 2025 MacBook Air Without a Profit Margin, Now Much Cheaper Than on Apple’s Official Site (Source: Gizmodo.com)
+37. [2025-06-26] Apple 13.3-Inch MacBook Air Is Going for Peanuts Thanks to 79% Off on a Grade-A Refurbished Deal (Source: Gizmodo.com)
+38. [2025-06-26] JPMorgan cuts Apple stock price target on soft iPhone 17 outlook and delayed AI payoff (Source: 9to5Mac)
+39. [2025-06-26] New Apple Store Coming Soon on Long Island (Source: MacRumors)
+40. [2025-06-28] Amazon Takes Up to $100 Off Huge Collection of Apple Watch SE/Series 10 Models (Source: MacRumors)
+41. [2025-06-30] Google Calendar now has an Apple Watch app (Source: The Verge)
+42. [2025-06-30] Apple CarPlay Ultra hands-on: more continuity, less disruption (Source: The Verge)
+43. [2025-06-30] Apple Updates Pixelmator Pro With Apple Intelligence Support (Source: MacRumors)
+44. [2025-07-01] The MLS Season Pass is 50 percent off ahead of the All-Star game and Leagues Cup (Source: The Verge)
+45. [2025-07-01] Google kills its Keep app on Apple Watch (Source: The Verge)
+46. [2025-07-01] ‘Foundation’ Season 3 Digs Into What It’s Like for a Robot to Have an Existential Crisis (Source: Gizmodo.com)
+47. [2025-07-02] A Foldable iPhone Needs to Be At Least This Thin or It’s DOA (Source: Gizmodo.com)
+48. [2025-07-02] Apple Watch Ultra 3 Launching Later This Year With Two Key Upgrades (Source: MacRumors)
+49. [2025-07-02] Apple Pauses Work on Foldable iPad (Source: MacRumors)
+50. [2025-07-03] Here's How to Listen to Apple's Upcoming Earnings Call With Tim Cook (Source: MacRumors)
+51. [2025-07-03] Trump’s Defiance of TikTok Ban Prompted Immunity Promises to 10 Tech Companies (Source: Wired)
+52. [2025-07-03] Apple Suddenly Drops AirPods Max Below Its Black Friday Price for Everyone, Not Just for Prime Members (Source: Gizmodo.com)
+53. [2025-07-04] Pilou Asbæk on Playing the Mule, ‘Foundation’ Season 3’s Terrifying Villain (Source: Gizmodo.com)
+54. [2025-07-05] Apple Inc. (AAPL): People Are Tired Of The Stock Buybacks, Says Jim Cramer (Source: Yahoo Entertainment)
+55. [2025-07-06] This Is the Cheapest Apple Watch Ever, Amazon Is Going Completely Nuts for Prime Day (Source: Gizmodo.com)
+56. [2025-07-07] Forget Spotify, Here’s How to Get Amazon Music Unlimited For FREE Thanks to Prime Day (Source: Gizmodo.com)
+57. [2025-07-07] Apple’s 5th Ave store spray-painted to protest ‘climate hypocrisy’ (Source: The Verge)
+58. [2025-07-07] If You’re a Prime Member, Amazon Is Including 2 Free AirTags for Prime Day (Source: Gizmodo.com)
+
+
+- Future value predictions for the next 92 days (if available):
+  FUTURE PREDICTIONS:
+- 2025-07-09: $203.84
+- 2025-07-10: $203.25
+- 2025-07-11: $202.98
+- 2025-07-12: $202.71
+- 2025-07-13: $202.55
+- 2025-07-14: $202.33
+- 2025-07-15: $202.21
+- 2025-07-16: $202.25
+- 2025-07-17: $202.31
+- 2025-07-18: $202.20
+- 2025-07-19: $202.20
+- 2025-07-20: $202.13
+- 2025-07-21: $201.97
+- 2025-07-22: $201.76
+- 2025-07-23: $201.37
+- 2025-07-24: $200.94
+- 2025-07-25: $200.58
+- 2025-07-26: $200.19
+- 2025-07-27: $199.84
+- 2025-07-28: $199.76
+- 2025-07-29: $199.81
+- 2025-07-30: $199.88
+- 2025-07-31: $199.85
+- 2025-08-01: $199.75
+- 2025-08-02: $199.67
+- 2025-08-03: $199.76
+- 2025-08-04: $200.17
+- 2025-08-05: $200.82
+- 2025-08-06: $201.61
+- 2025-08-07: $202.29
+
+
+
+- Investment horizon: 10 years
+
+[Analysis_Objectives]
+1. **Historical Assessment:** Examine the recent historical performance of the stock, identifying significant trends and comparing it with market benchmarks if applicable.
+2. **Volatility and Risk Analysis:** Assess the level of volatility and associated risks, highlighting any critical thresholds.
+3. **News Impact:** Analyze the influence of news, giving greater relevance to authoritative and recent sources.
+4. **Technical Indicators:** Identify and evaluate other relevant technical indicators (e.g., moving averages, RSI, MACD, supports and resistances).
+5. **Market Context:** Consider the macroeconomic and sector context, integrating it into the analysis.
+6. **Predictive Analysis:** If available, analyze the predicted future values, compare them with historical trends, and assess their plausibility based on the current context.
+7. **Operational Recommendation:** Provide a clear final recommendation (BUY, SELL, or HOLD) with a detailed justification, highlighting any uncertainties or risks.
+
+[Output_Format]
+Organize the output into clear and well-structured sections:
+- **Introduction:** Summary of the context, objectives, and main findings.
+- **Historical and Technical Analysis:** Detailing trends, technical indicators, and volatility/risk assessment.
+- **Sentiment and News Analysis:** Qualitative assessment of the impact of news, weighted by source/date.
+- **Context and Benchmark:** Any comparisons with the general market or sector benchmarks.
+- **Future Projections:** Analysis of predicted values for the coming days, assessment of their consistency with technical and fundamental analysis, and identification of possible turning points.
+- **Final Recommendation:** Conclusions and operational indications (BUY, SELL, or HOLD) with detailed evidence and justifications.
+
+The output language must be english.
+
+[Output_Formatting]
+Use "**" before and after the titles of the various output sections.
+
+[Output]
+<|assistant|>
+<|end_of_promptml|>
