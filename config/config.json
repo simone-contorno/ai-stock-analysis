@@ -1,8 +1,8 @@
 {
     "general": {
-        "stock_symbol": "^GSPC",
+        "stock_symbol": "AAPL",
         "analysis_period_days": 28,
-        "prediction_path": "your_path_to_ai_stock_prediction"
+        "prediction_path": "C:/Users/simon/Desktop/Programming/ai-stock-prediction"
     },
     "yahoo_finance": {
         
@@ -23,7 +23,7 @@
         "news_api_language": "en",
         "news_api_sort_by": "relevancy",
         "news_api_page_size": 100,
-        "news_api_query_suffix": "S&P500 OR GSPC",
+        "news_api_query_suffix": "AAPL OR Apple",
         "news_api_refresh_no_news": false,
         "news_api_refresh_articles": false
     }
