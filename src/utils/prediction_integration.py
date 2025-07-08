@@ -95,11 +95,11 @@ class PredictionIntegration:
             bool: True if execution was successful, False otherwise.
         """
         try:
-            logger.info(f"Starting prediction program: {self.main_script} --mode predict --symbol {symbol}")
+            logger.info(f"Starting prediction program: {self.main_script} --mode predict --symbol {symbol} --download")
             
             # Run the command
             result = subprocess.run(
-                [sys.executable, self.main_script, "--mode", "predict", "--symbol", symbol],
+                [sys.executable, self.main_script, "--mode", "predict", "--symbol", symbol, "--download"],
                 capture_output=True,
                 text=True,
                 check=True
