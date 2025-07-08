@@ -28,7 +28,7 @@ The workflow is as follows:
 
 The analysis synthesizes financial data, news, and AI-generated price predictions to formulate a professional forecast of the stock's trend for the following month. This includes a detailed evaluation with key parameters such as historical performance, volatility, news impact, future price projections, and other indicators useful for deciding whether to buy, sell, or hold the stock.
 
-[Here](output/AAPL/AAPL_20250708_173923/AAPL_20250708_173923.pdf) you can find an output example generated with a 28-days period for the Apple (AAPL) stock.
+[Here](output/AAPL/AAPL_20250708_181554/AAPL_20250708_181554.pdf) you can find an output example generated with a 28-days period for the Apple (AAPL) stock.
 
 ## 🛠️ Requirements
 

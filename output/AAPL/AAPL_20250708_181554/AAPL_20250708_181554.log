@@ -1,0 +1,102 @@
+2025-07-08 18:15:54,574 - config.config - INFO - Together AI model set to: meta-llama/Llama-3.3-70B-Instruct-Turbo-Free
+2025-07-08 18:15:54,575 - config.config - INFO - Investment horizon set to: 10 years
+2025-07-08 18:15:54,575 - config.config - INFO - Output language set to: english
+2025-07-08 18:15:54,575 - config.config - INFO - Stock symbol set to: AAPL
+2025-07-08 18:15:54,575 - config.config - INFO - Analysis period set to: 28 days
+2025-07-08 18:15:54,575 - config.config - INFO - Prediction path set to: C:/Users/simon/Desktop/Programming/ai-stock-prediction
+2025-07-08 18:15:54,576 - config.config - INFO - Maximum number of articles set to: 100
+2025-07-08 18:15:54,576 - config.config - INFO - Language for News API set to: en
+2025-07-08 18:15:54,577 - config.config - INFO - Sort criterion for News API set to: relevancy
+2025-07-08 18:15:54,577 - config.config - INFO - Page size for News API set to: 100
+2025-07-08 18:15:54,577 - config.config - INFO - Query suffix for News API set to: AAPL OR Apple
+2025-07-08 18:15:54,578 - config.config - INFO - Update news when not available: False
+2025-07-08 18:15:54,578 - config.config - INFO - Update news for days with existing articles: False
+2025-07-08 18:15:54,578 - config.config - INFO - Maximum number of articles per day set to: 3
+2025-07-08 18:15:54,578 - config.config - INFO - Configuration successfully loaded from file
+2025-07-08 18:15:54,578 - __main__ - INFO - Starting analysis for stock AAPL
+2025-07-08 18:15:54,579 - src.api.yahoo_finance_api - INFO - Yahoo Finance API initialization
+2025-07-08 18:15:54,579 - src.utils.news_db_manager - INFO - Database directory: data\news_db
+2025-07-08 18:15:54,579 - src.api.news_api - INFO - Initialization of News API and local database completed
+2025-07-08 18:15:54,579 - config.config - INFO - Together AI model set to: meta-llama/Llama-3.3-70B-Instruct-Turbo-Free
+2025-07-08 18:15:54,579 - config.config - INFO - Investment horizon set to: 10 years
+2025-07-08 18:15:54,580 - config.config - INFO - Output language set to: english
+2025-07-08 18:15:54,580 - config.config - INFO - Stock symbol set to: AAPL
+2025-07-08 18:15:54,580 - config.config - INFO - Analysis period set to: 28 days
+2025-07-08 18:15:54,580 - config.config - INFO - Prediction path set to: C:/Users/simon/Desktop/Programming/ai-stock-prediction
+2025-07-08 18:15:54,580 - config.config - INFO - Maximum number of articles set to: 100
+2025-07-08 18:15:54,580 - config.config - INFO - Language for News API set to: en
+2025-07-08 18:15:54,580 - config.config - INFO - Sort criterion for News API set to: relevancy
+2025-07-08 18:15:54,581 - config.config - INFO - Page size for News API set to: 100
+2025-07-08 18:15:54,581 - config.config - INFO - Query suffix for News API set to: AAPL OR Apple
+2025-07-08 18:15:54,581 - config.config - INFO - Update news when not available: False
+2025-07-08 18:15:54,581 - config.config - INFO - Update news for days with existing articles: False
+2025-07-08 18:15:54,581 - config.config - INFO - Maximum number of articles per day set to: 3
+2025-07-08 18:15:54,582 - config.config - INFO - Configuration successfully loaded from file
+2025-07-08 18:15:54,582 - src.api.together_api - INFO - Together API initialization completed with model: meta-llama/Llama-3.3-70B-Instruct-Turbo-Free
+2025-07-08 18:15:54,582 - __main__ - INFO - Retrieving financial data for AAPL for a period of 28 days
+2025-07-08 18:15:54,582 - src.api.yahoo_finance_api - INFO - Retrieving data for AAPL from 2025-06-10 to 2025-07-08
+2025-07-08 18:15:55,103 - src.api.yahoo_finance_api - INFO - Retrieved 19 records for AAPL
+2025-07-08 18:15:55,110 - src.api.yahoo_finance_api - INFO - Technical indicators calculated successfully
+2025-07-08 18:15:55,110 - __main__ - INFO - Retrieving news for Apple (AAPL)
+2025-07-08 18:15:55,110 - src.api.news_api - INFO - Analysis period for Apple (AAPL): from 2025-06-10 to 2025-07-08
+2025-07-08 18:15:55,113 - src.utils.news_db_manager - INFO - Missing dates for AAPL: 1 out of 29
+2025-07-08 18:15:55,114 - src.api.news_api - INFO - Retrieving news for Apple (AAPL) for 1 missing weekdays
+2025-07-08 18:15:55,114 - src.api.news_api - INFO - API call for the period from 2025-07-08 to 2025-07-08
+2025-07-08 18:15:55,114 - src.api.news_api - INFO - Parameters for News API call: language=en, sort_by=relevancy, page_size=100
+2025-07-08 18:15:55,114 - src.api.news_api - INFO - Query for News API: 'AAPL OR AAPL OR Apple'
+2025-07-08 18:15:55,360 - src.api.news_api - INFO - Retrieved 0 articles for Apple (AAPL) from the API
+2025-07-08 18:15:55,364 - src.api.news_api - INFO - News retrieval statistics for AAPL: 28 days from DB, 0 days from API, 1 days without news
+2025-07-08 18:15:55,364 - src.api.news_api - INFO - Limit of articles per day for AAPL: 3
+2025-07-08 18:15:55,400 - src.api.news_api - INFO - Retrieved 58 articles from the local database for AAPL
+2025-07-08 18:15:55,401 - src.api.news_api - INFO - Sentiment analysis completed for 58 articles
+2025-07-08 18:15:55,401 - __main__ - INFO - Attempting to retrieve predictions from external system for AAPL
+2025-07-08 18:15:55,401 - src.utils.prediction_integration - INFO - Prediction system found and available at: C:/Users/simon/Desktop/Programming/ai-stock-prediction
+2025-07-08 18:15:55,402 - src.utils.prediction_integration - INFO - Starting download of updated dataset
+2025-07-08 18:15:55,402 - src.utils.prediction_integration - INFO - Starting dataset download script: C:/Users/simon/Desktop/Programming/ai-stock-prediction\download_dataset.py
+2025-07-08 18:15:57,251 - src.utils.prediction_integration - INFO - Dataset download completed successfully
+2025-07-08 18:15:57,251 - src.utils.prediction_integration - INFO - Starting prediction program: C:/Users/simon/Desktop/Programming/ai-stock-prediction\main.py --mode predict --symbol AAPL --download
+2025-07-08 18:16:07,194 - src.utils.prediction_integration - INFO - Prediction program completed successfully
+2025-07-08 18:16:07,194 - src.utils.prediction_integration - INFO - Reading configuration file: C:/Users/simon/Desktop/Programming/ai-stock-prediction\config.json
+2025-07-08 18:16:07,203 - src.utils.prediction_integration - INFO - Prediction file found in config: C:\Users\simon\Desktop\Programming\ai-stock-analysis\results\^GSPC\close\2025-04-27_17-01-41\AAPL\predict\2025-07-08_18-16-03\predictions_real.csv
+2025-07-08 18:16:07,204 - src.utils.prediction_integration - INFO - Detected traditional CSV format with date and prediction
+2025-07-08 18:16:07,205 - src.utils.prediction_integration - INFO - Read 30 prediction records from file C:\Users\simon\Desktop\Programming\ai-stock-analysis\results\^GSPC\close\2025-04-27_17-01-41\AAPL\predict\2025-07-08_18-16-03\predictions_real.csv
+2025-07-08 18:16:07,205 - src.utils.prediction_integration - INFO - Predictions obtained and formatted successfully
+2025-07-08 18:16:07,205 - __main__ - INFO - Predictions successfully retrieved for AAPL
+2025-07-08 18:16:07,205 - __main__ - INFO - Analyzing data with Together API for AAPL
+2025-07-08 18:16:07,207 - src.api.together_api - INFO - Prompt saved in file: c:\Users\simon\Desktop\Programming\ai-stock-analysis\output\AAPL\AAPL_20250708_181554\AAPL_prompt.log
+2025-07-08 18:16:07,207 - src.api.together_api - INFO - Sending analysis request to Together API for AAPL
+2025-07-08 18:16:20,257 - src.api.together_api - INFO - Response received from Together API: <class 'dict'>
+2025-07-08 18:16:20,258 - src.api.together_api - INFO - Response structure: dict_keys(['id', 'object', 'created', 'model', 'choices', 'prompt', 'usage'])
+2025-07-08 18:16:20,258 - src.api.together_api - INFO - Text successfully extracted from response (length: 3222 characters)
+2025-07-08 18:16:20,259 - src.api.together_api - INFO - Response saved in file: c:\Users\simon\Desktop\Programming\ai-stock-analysis\output\AAPL\AAPL_20250708_181554\AAPL_response.log
+2025-07-08 18:16:20,260 - src.api.together_api - INFO - Recommendation extraction completed
+2025-07-08 18:16:20,260 - src.api.together_api - INFO - Occurrence count: BUY=0, SELL=0, HOLD=1
+2025-07-08 18:16:20,260 - src.api.together_api - INFO - Analysis completed for AAPL
+2025-07-08 18:16:20,261 - __main__ - INFO - Generating PDF report for AAPL
+2025-07-08 18:16:20,261 - src.utils.pdf_generator - INFO - PDF generator initialization completed
+2025-07-08 18:16:20,261 - src.utils.pdf_generator - INFO - Generating PDF report for AAPL in c:\Users\simon\Desktop\Programming\ai-stock-analysis\output\AAPL\AAPL_20250708_181554\AAPL_20250708_181554.pdf
+2025-07-08 18:16:20,265 - src.utils.pdf_generator - INFO - Transition between historical data and predictions at index 19
+2025-07-08 18:16:20,265 - src.utils.pdf_generator - INFO - Last historical date: 2025-07-08 00:00:00
+2025-07-08 18:16:20,265 - src.utils.pdf_generator - INFO - First prediction date: 2025-07-09 00:00:00
+2025-07-08 18:16:20,543 - src.utils.pdf_generator - INFO - Matplotlib chart saved at: c:\Users\simon\Desktop\Programming\ai-stock-analysis\output\AAPL\AAPL_20250708_181554\chart_20250708_181620.png
+2025-07-08 18:16:20,543 - src.utils.pdf_generator - INFO - Matplotlib chart successfully created and inserted into the PDF
+2025-07-08 18:16:20,544 - src.utils.pdf_generator - INFO - Attempting to generate the PDF with 27 elements
+2025-07-08 18:16:20,589 - src.utils.pdf_generator - INFO - Call to doc.build completed successfully
+2025-07-08 18:16:20,589 - src.utils.pdf_generator - INFO - PDF file verified: exists at c:\Users\simon\Desktop\Programming\ai-stock-analysis\output\AAPL\AAPL_20250708_181554\AAPL_20250708_181554.pdf with size 56150 bytes
+2025-07-08 18:16:20,589 - src.utils.pdf_generator - INFO - PDF report generated successfully: c:\Users\simon\Desktop\Programming\ai-stock-analysis\output\AAPL\AAPL_20250708_181554\AAPL_20250708_181554.pdf
+2025-07-08 18:16:20,590 - __main__ - INFO - PDF report successfully generated: c:\Users\simon\Desktop\Programming\ai-stock-analysis\output\AAPL\AAPL_20250708_181554\AAPL_20250708_181554.pdf
+2025-07-08 18:16:20,591 - __main__ - INFO - Analysis completed for AAPL with recommendation: HOLD
+
+==================================================
+LOG SUMMARY:
+
+NEWS RETRIEVAL STATISTICS:
+- Number of days with news retrieved from Database: 28
+- Number of days with news retrieved with NewsAPI: 0
+- Number of days with no news: 1
+
+LOG MESSAGE COUNT:
+INFO: 88
+WARNING: 0
+ERROR: 0
+==================================================

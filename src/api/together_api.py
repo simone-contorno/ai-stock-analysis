@@ -332,7 +332,7 @@ class TogetherAPI:
 
         # Get the output language from the configuration
         output_language = get_config_value("output_language", "english")
-
+        
         prompt = f"""
 <|begin_of_promptml|>
 [System]
@@ -345,7 +345,7 @@ You are an expert financial analyst tasked with providing a comprehensive analys
 - Relevant news (last 4 weeks):
   {news_summary}
 
-- Future value predictions for the next {len(prediction_text.split()) if prediction_summary else 'none'} days (if available):
+- Future value predictions for the next days (if available):
   {prediction_text}
 
 - Investment horizon: {investment_horizon}
