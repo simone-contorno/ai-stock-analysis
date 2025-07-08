@@ -2,7 +2,7 @@
     "general": {
         "stock_symbol": "AAPL",
         "analysis_period_days": 28,
-        "prediction_path": "C:/Users/simon/Desktop/Programming/ai-stock-prediction"
+        "prediction_path": "path_to_ai_stock_prediction_repository"
     },
     "yahoo_finance": {
         
